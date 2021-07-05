@@ -1,5 +1,6 @@
 {
   "name": "@alekremi/ngx-livechat",
+  "version": "1.0.0",
   "description": "Library to integrate LiveChat with Angular",
   "private": true,
   "scripts": {
@@ -8,7 +9,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "release": "standard-version"
   },
   "dependencies": {
     "@angular/animations": "~12.1.1",
@@ -47,6 +49,7 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^12.1.0",
     "prettier": "^2.3.2",
+    "standard-version": "^9.3.0",
     "typescript": "^4.3.5"
   }
 }
