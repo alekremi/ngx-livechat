@@ -1,0 +1,28 @@
+{
+  "name": "@alekremi/ngx-livechat",
+  "version": "1.0.0",
+  "author": "Aleksandr Kreminskij",
+  "description": "Library to integrate LiveChat with Angular",
+  "homepage": "https://github.com/alekremi/ngx-livechat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekremi/ngx-livechat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alekremi/ngx-livechat/issues"
+  },
+  "keywords": [
+    "angular",
+    "livechat",
+    "livechat module",
+    "livechat service"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^12.1.1",
+    "@angular/core": "^12.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  }
+}
