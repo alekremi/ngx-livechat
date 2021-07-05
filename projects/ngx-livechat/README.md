@@ -1,24 +1,60 @@
-# NgxLivechat
+## Library to integrate [Livechat](https://www.livechat.com/) with Angular
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+#### Demo
 
-## Code scaffolding
+StackBlitz [live example](https://stackblitz.com/edit/ngx-livechat-example).
 
-Run `ng generate component component-name --project ngx-livechat` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-livechat`.
-> Note: Don't forget to add `--project ngx-livechat` or else it will be added to the default project in your `angular.json` file. 
+### Installation
 
-## Build
+```bash
+npm install --save @alekremi/ngx-livechat
+```
 
-Run `ng build ngx-livechat` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Usage
 
-## Publishing
+Import `NgxLivechatModule` in Angular AppModule.
 
-After building your library with `ng build ngx-livechat`, go to the dist folder `cd dist/ngx-livechat` and run `npm publish`.
+```javascript
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgxLivechatModule } from 'ngx-livechat';
 
-## Running unit tests
+import { AppComponent } from './app.component';
 
-Run `ng test ngx-livechat` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+  imports: [BrowserModule, NgxLivechatModule.forRoot({ licenseId: 11082047 })],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent]
+})
+export class AppModule {}
+```
 
-## Further help
+The `NgxLivechatService` also provides methods for LiveChat APIs, such as:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- `open_chat_window`
+- `minimize_chat_window` and etc.
+
+For example, how to programmatically open a LiveChat window:
+
+```javascript
+constructor(private livechatService: NgxLivechatService) {}
+
+openChatWindow(): void {
+    this.livechatService.openChatWindow();
+}
+
+```
+
+### Configuration
+
+Required parameter:
+
+- `licenseId`
+
+As optional parameters, you can define:
+
+- `group`
+- `chatBetweenGroups`
+- `params`
+- `visitor`
+- `gaVersion`

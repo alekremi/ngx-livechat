@@ -1,7 +1,10 @@
 {
   "name": "@alekremi/ngx-livechat",
   "version": "1.0.0",
-  "author": "Aleksandr Kreminskij",
+  "author": {
+    "name": "Aleksandr Kreminskij",
+    "email": "aleksandr.kreminskij@gmail.com"
+  },
   "description": "Library to integrate LiveChat with Angular",
   "homepage": "https://github.com/alekremi/ngx-livechat",
   "repository": {
