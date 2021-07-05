@@ -2,7 +2,6 @@
   "name": "@alekremi/ngx-livechat",
   "version": "1.0.0",
   "description": "Library to integrate LiveChat with Angular",
-  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
