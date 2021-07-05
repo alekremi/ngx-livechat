@@ -15,12 +15,9 @@ export class NgxLivechatService {
     this.window = this.document.defaultView as unknown as NgxLivechatWindow;
     this.liveChatLoadedSubject = new Subject<boolean>();
     this.liveChatLoaded$ = this.liveChatLoadedSubject.asObservable();
-
-    console.log('constructor');
   }
 
   initLiveChat(): void {
-    console.log('initLiveChat');
     if (!this.window.__lc) {
       this.window.__lc = {
         license: this.config.licenseId,
