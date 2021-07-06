@@ -20,9 +20,12 @@ export class NgxLivechatService {
   initLiveChat(): void {
     if (!this.window.__lc) {
       this.window.__lc = {
-        license: this.config.licenseId,
+        license: this.config.license,
         group: this.config.group,
-        chat_between_groups: this.config.chatBetweenGroups
+        chat_between_groups: this.config.chatBetweenGroups,
+        params: this.config.params,
+        visitor: this.config.visitor,
+        ga_version: this.config.gaVersion
       };
 
       const script = this.createHTMLScriptElement('https://cdn.livechatinc.com/tracking.js', true);

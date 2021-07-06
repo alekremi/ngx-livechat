@@ -8,7 +8,7 @@ describe('NgxLivechatService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [NgxLivechatModule.forRoot({ licenseId: 11082047 })]
+      imports: [NgxLivechatModule.forRoot({ license: 11082047 })]
     });
     service = TestBed.inject(NgxLivechatService);
   });
