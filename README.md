@@ -1,10 +1,11 @@
 ## Library to integrate [Livechat](https://www.livechat.com/) with Angular
+
 [![npm version](https://badge.fury.io/js/%40alekremi%2Fngx-livechat.svg)](https://badge.fury.io/js/%40alekremi%2Fngx-livechat)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@alekremi/ngx-livechat)
 ![Depfu](https://img.shields.io/depfu/alekremi/ngx-livechat)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/584137b4cbfd47edb001bc150ece9c2b)](https://www.codacy.com/gh/alekremi/ngx-livechat/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alekremi/ngx-livechat&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/584137b4cbfd47edb001bc150ece9c2b)](https://www.codacy.com/gh/alekremi/ngx-livechat/dashboard?utm_source=github.com&utm_medium=referral&utm_content=alekremi/ngx-livechat&utm_campaign=Badge_Grade)
 
-#### Demo
+### Demo
 
 StackBlitz [live example](https://stackblitz.com/edit/ngx-livechat-example).
 

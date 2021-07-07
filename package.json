@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "format": "prettier --write .",
     "release": "standard-version"
   },
   "dependencies": {
