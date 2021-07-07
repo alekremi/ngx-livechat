@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/%40alekremi%2Fngx-livechat.svg)](https://badge.fury.io/js/%40alekremi%2Fngx-livechat)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@alekremi/ngx-livechat)
 ![Depfu](https://img.shields.io/depfu/alekremi/ngx-livechat)
-[![CodeFactor](https://www.codefactor.io/repository/github/alekremi/ngx-livechat/badge)](https://www.codefactor.io/repository/github/alekremi/ngx-livechat)
 
 ### Demo
 
